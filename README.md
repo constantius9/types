@@ -1,4 +1,4 @@
 types
 =====
 
-Learn Haskell by implementing of type systems
+Learn Haskell by implementing type systems
