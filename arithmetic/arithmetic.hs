@@ -74,3 +74,7 @@ eval1 t = case t of
         let t1' = eval1 t1
         in TmIsZero fi t1'
     _ -> undefined
+
+eval t =
+    let t' = eval1 t
+    in eval t'
